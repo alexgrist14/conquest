@@ -1,0 +1,70 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 275px;
+  background: #444240;
+  color: #FFFFFF;
+  h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  ul{
+    list-style: none;
+    li{
+      font-family: 'Roboto',sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  &-header{
+    display: flex;
+    align-items: flex-end;
+    .ellipse{
+      width: 25.11px;
+      height: 25.13px;
+    }
+  }
+  &-title{
+    font-family: 'Playfair Display',sans-serif !important;
+  }
+  &-contacts{
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    &__container{
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+
+    }
+  }
+  &-phone{
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 15px;
+  }
+  &-mail{
+    font-family: 'Roboto',sans-serif;
+  }
+  .footer-list{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+    }
+
+}
